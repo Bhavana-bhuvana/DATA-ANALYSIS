@@ -1,0 +1,17 @@
+=IF(ISNUMBER(SEARCH("per Hour",D2,1)),J2=true,G2=false)  salary
+hourly salary->annum salary=sal*40*52
+=SUBSTITUTE(N2, CHAR(10), " ")
+where there are line breaks it goes to next line, 
+line fed ASCCII (10)
+substitutes next line characters in line breaks
+
+
+
+
+
+
+
+
+
+
+
